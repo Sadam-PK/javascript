@@ -115,11 +115,11 @@
 
 // )
 
-let arr1 = [3,5,10]
+// let arr1 = [3,5,10]
 
-let obj1 = [...arr1, 20]
+// let obj1 = [...arr1, 20]
 
-console.log(obj1)
+// console.log(obj1)
 
 
 // let arr2 = [3,5,10]
@@ -127,3 +127,9 @@ console.log(obj1)
 // let obj2 = {...arr1, 3:50}
 
 // console.log(obj2)
+
+let arr = [1,2,3,4,5]
+function sum(a,b,c,d,e){
+    return a+b+c+d+e
+}
+console.log(sum(...arr))
