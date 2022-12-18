@@ -173,3 +173,14 @@
 // }, 2000)
 
 // console.log(promise)
+
+// //------- map -----------
+
+let arr = [10, 20, 30, 40]
+
+let a = arr.map((value)=>{  // map is used for creating new array
+    console.log(value);     // foreach is used for new operation on array
+    return value+1
+})
+
+console.log(a);
