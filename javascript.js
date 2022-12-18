@@ -133,3 +133,27 @@
 //     return a+b+c+d+e
 // }
 // console.log(sum(...arr))
+
+
+//  // ------------- Async -- callbacks ----------------
+
+// console.log('Start')
+// setTimeout(function(){
+//     console.log('Hey, I am late because I am in async function..')
+// }, 3000);
+
+// console.log('End')
+
+function loadScript(src, callBack){
+    var script = document.createElement('Script')
+    script.src = src
+    script.onload=function(){
+        callBack()
+    }
+    document.body.appendChild(script)
+}
+function Hello(){
+    alert('Hellowwwww')
+}
+
+loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js", Hello);
