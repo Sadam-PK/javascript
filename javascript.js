@@ -144,16 +144,32 @@
 
 // console.log('End')
 
-function loadScript(src, callBack){
-    var script = document.createElement('Script')
-    script.src = src
-    script.onload=function(){
-        callBack()
-    }
-    document.body.appendChild(script)
-}
-function Hello(){
-    alert('Hellowwwww')
-}
+// function loadScript(src, callBack){
+//     var script = document.createElement('Script')
+//     script.src = src
+//     script.onload=function(){
+//         callBack()
+//     }
+//     document.body.appendChild(script)
+// }
+// function Hello(){
+//     alert('Hellowwwww')
+// }
 
-loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js", Hello);
+// loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js", Hello);
+
+
+//  // ------------- Promises ----------------
+
+// let promise = new Promise(function(resolve, reject){
+//     alert('Hello from Promise')
+//     resolve(56)
+// })
+
+// console.log('Hello')
+
+// setTimeout(function(){
+//     console.log('Hello from settimeout')
+// }, 2000)
+
+// console.log(promise)
