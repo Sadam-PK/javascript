@@ -71,3 +71,22 @@
 
 
 // //-------- event handling ------------ 
+
+let a = prompt('Enter a number');
+
+let x =  function(e){
+    alert('Hello')
+}
+let y =  function(e){
+    alert('Hello 2')
+}
+
+btn.addEventListener('click', x)
+
+
+btn.addEventListener('click', y)
+
+
+if (a == '1'){
+    btn.removeEventListener('click', x)
+}
