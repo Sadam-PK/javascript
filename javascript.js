@@ -70,23 +70,48 @@
 // }
 
 
-// //-------- event handling ------------ 
+// // //-------- event handling ------------ 
 
-let a = prompt('Enter a number');
+// let a = prompt('Enter a number');
 
-let x =  function(e){
-    alert('Hello')
-}
-let y =  function(e){
-    alert('Hello 2')
-}
+// let x =  function(e){
+//     alert('Hello')
+// }
+// let y =  function(e){
+//     alert('Hello 2')
+// }
 
-btn.addEventListener('click', x)
-
-
-btn.addEventListener('click', y)
+// btn.addEventListener('click', x)
 
 
-if (a == '1'){
-    btn.removeEventListener('click', x)
-}
+// btn.addEventListener('click', y)
+
+
+// if (a == '1'){
+//     btn.removeEventListener('click', x)
+// }
+
+// let arr = [3,2]
+// let [a, b] = arr
+
+// console.log(arr)
+
+// let arr = [2,4,6,5,3,10]
+// let [a,s,d,f, ...rest]=arr
+
+// console.log(a,s,d,f,rest)
+
+
+
+// let arr = [2,4,6,5,3,10]
+// let [a,,,, ...rest]=arr
+
+// console.log(a,rest)
+
+
+// let {a,b} = {a:2, b:3}
+
+// console.log(a,b
+
+// )
+
