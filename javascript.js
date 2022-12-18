@@ -115,3 +115,15 @@
 
 // )
 
+let arr1 = [3,5,10]
+
+let obj1 = [...arr1, 20]
+
+console.log(obj1)
+
+
+// let arr2 = [3,5,10]
+
+// let obj2 = {...arr1, 3:50}
+
+// console.log(obj2)
